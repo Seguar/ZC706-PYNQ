@@ -1,0 +1,11 @@
+{
+  "image": "ZC706-3.1.2.img",
+  "image_bytes": 7477395456,
+  "raw_sha256": "32f409f49eaf4f96756543329558cae68a5aa7eba12a5cc8a0d8d84dc4982c0a",
+  "compressed_image": "ZC706-3.1.2.img.xz",
+  "compressed_bytes": 1480244564,
+  "compressed_sha256": "d563ef0ef1e5d5faec84a0d94cf542bceeee53ce382a56d3dfcaf27025814c1c",
+  "release_hostname": "pynq-2",
+  "ssh_host_keys": "generated individually before ssh.service starts",
+  "build_image_source": "clean offline build; not a copy of a used lab card"
+}

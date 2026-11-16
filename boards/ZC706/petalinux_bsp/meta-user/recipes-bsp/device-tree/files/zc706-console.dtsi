@@ -1,0 +1,6 @@
+/ {
+    chosen {
+        bootargs = "root=/dev/mmcblk0p2 rw rootfstype=ext4 rootwait devtmpfs.mount=1 uio_pdrv_genirq.of_id=\"generic-uio\" clk_ignore_unused console=ttyPS0,115200n8 earlycon=cdns,mmio,0xe0001000";
+        stdout-path = "serial0:115200n8";
+    };
+};

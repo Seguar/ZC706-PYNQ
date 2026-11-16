@@ -1,0 +1,8 @@
+*.sh text eol=lf
+*.py text eol=lf
+*.tcl text eol=lf
+*.dtsi text eol=lf
+*.bbappend text eol=lf
+*.bit binary
+*.xz binary
+*.zip binary

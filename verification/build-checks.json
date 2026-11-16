@@ -1,0 +1,14 @@
+{
+  "hardware_tool": "Vivado 2024.1",
+  "part": "xc7z045ffg900-2",
+  "wns_ns": 15.669,
+  "whs_ns": 0.078,
+  "failing_timing_endpoints": 0,
+  "drc_errors": 0,
+  "hwh_metadata_addresses": {"leds_gpio": "0x41200000", "switches_gpio": "0x41210000", "buttons_gpio": "0x41220000"},
+  "hwh_metadata_ranges_bytes": 65536,
+  "fit_checks": ["ZC706", "1 GiB", "UART1 console", "Ethernet PHY 7", "polling zocl", "no legacy PL INTC"],
+  "rootfs_checks": ["e2fsck", "unique SSH key generator using target ARM binary", "SSH host-key unit ordering", "empty release machine-id", "PYNQ clock patch compilation"],
+  "clock_patch_checks": ["33.333333 MHz", "50 MHz", "explicit override", "missing-node fallback", "invalid data rejection", "idempotence"],
+  "hardware_clock_note": "Clock rates are calculated from the reference frequency and hardware registers; no external instrument measurement is claimed."
+}

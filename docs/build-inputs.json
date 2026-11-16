@@ -1,0 +1,24 @@
+{
+  "pynq_tag": "v3.1.2",
+  "pynq_commit": "3c77124d86bab65ac7bb6beb0aa66e13c83508f2",
+  "amd_tools": "2024.1",
+  "target_part": "xc7z045ffg900-2",
+  "board_preset": "xilinx.com:zc706:part0:1.4",
+  "kernel": "6.6.10-xilinx-v2024.1-g05b47520e0ec",
+  "rootfs": {
+    "name": "jammy.arm.3.1.0.tar.gz",
+    "url": "https://download.amd.com/opendownload/pynq/jammy.arm.3.1.0.tar.gz",
+    "sha256": "c3e99a9e8922b6be22955b58b09955fcbf8c3ea8ef7edec46f400bef80e4d00e"
+  },
+  "sdist": {
+    "name": "pynq-3.1.2.tar.gz",
+    "url": "https://download.amd.com/opendownload/pynq/pynq-3.1.2.tar.gz",
+    "sha256": "a4e59470641448a159ac0d40f74cbcc8870eda3285e63041cd83bc61299fd861"
+  },
+  "pynq_metadata_commit": "7ff39f7e699b854973e4f894fb6e5272534a42f7",
+  "pynq_utils_commit": "fe88b2fd04b6789bd2c9d50c47b140e8453a6886",
+  "overlay_sha256": {
+    "base.bit": "8d5f9fe850b08fb728ce9238ded6c65bc59306873051d1405fe197bd74b86a71",
+    "base.hwh": "439ced3296f2f8ebbb710898fa4d0661a5bebbf8bc00a1e42dffdd033de63730"
+  }
+}

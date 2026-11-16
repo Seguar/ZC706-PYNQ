@@ -1,0 +1,12 @@
+work/
+artifacts/
+__pycache__/
+*.pyc
+boards/ZC706/base/project/
+boards/ZC706/base/*.bit
+boards/ZC706/base/*.hwh
+boards/ZC706/base/*.xsa
+boards/ZC706/base/*.log
+boards/ZC706/base/*.jou
+boards/ZC706/base/*.rpt
+boards/ZC706/base/.Xil/

@@ -1,0 +1,245 @@
+{
+  "status": "PASS",
+  "previous_gate": "FAIL preserved; superseded for this installed runtime only",
+  "date": "2026-11-16",
+  "runs": [
+    {
+      "date": "2026-11-16",
+      "pynq": "3.1.2",
+      "python": "3.10.4",
+      "kernel": "6.6.10-xilinx-v2024.1-g05b47520e0ec",
+      "architecture": "armv7l",
+      "jupyter_math": "PASS",
+      "part": "xc7z045ffg900-2",
+      "sha256": {
+        "base.bit": "8d5f9fe850b08fb728ce9238ded6c65bc59306873051d1405fe197bd74b86a71",
+        "base.hwh": "439ced3296f2f8ebbb710898fa4d0661a5bebbf8bc00a1e42dffdd033de63730"
+      },
+      "parser_before_download": "PASS",
+      "overlay": "PASS",
+      "ip": {
+        "leds_gpio": {
+          "type": "xilinx.com:ip:axi_gpio:2.0",
+          "phys_addr": 1092616192,
+          "addr_range": 65536
+        },
+        "switches_gpio": {
+          "type": "xilinx.com:ip:axi_gpio:2.0",
+          "phys_addr": 1092681728,
+          "addr_range": 65536
+        },
+        "buttons_gpio": {
+          "type": "xilinx.com:ip:axi_gpio:2.0",
+          "phys_addr": 1092747264,
+          "addr_range": 65536
+        },
+        "ps7": {
+          "type": "xilinx.com:ip:processing_system7:5.5",
+          "phys_addr": null,
+          "addr_range": null
+        }
+      },
+      "dt_ps_hz": 33333333,
+      "fclk0_mhz": 50.0,
+      "led_original": {
+        "value": 0,
+        "direction": 4294967295
+      },
+      "led_samples": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          15,
+          15
+        ]
+      ],
+      "led": "PASS",
+      "led_restored": true,
+      "inputs": {
+        "switches_gpio": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "buttons_gpio": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "allocation": {
+        "status": "PASS",
+        "words": 1024,
+        "dtype": "uint32",
+        "sync_to_from": true
+      },
+      "allocation_freed": true,
+      "status": "PASS"
+    },
+    {
+      "date": "2026-11-16",
+      "pynq": "3.1.2",
+      "python": "3.10.4",
+      "kernel": "6.6.10-xilinx-v2024.1-g05b47520e0ec",
+      "architecture": "armv7l",
+      "jupyter_math": "PASS",
+      "clock_patch_persisted": true,
+      "runtime_sha256": {
+        "base.bit": "8d5f9fe850b08fb728ce9238ded6c65bc59306873051d1405fe197bd74b86a71",
+        "base.hwh": "439ced3296f2f8ebbb710898fa4d0661a5bebbf8bc00a1e42dffdd033de63730",
+        "base.py": "4992c745a5767087bffa2ec6a5df977515c7d0d027c3ed683bd9a61b799ad598",
+        "__init__.py": "5a66619930cb9a1db11b426cc615766789b1d8f6eac154fc1ef84679cc3d3666"
+      },
+      "ps_sha256": "c0d66dffcf5845bb0d990d2e6f126c84e7c9cb7872bde5224f369933737e7d60",
+      "uptime_seconds": 161.79,
+      "part": "xc7z045ffg900-2",
+      "sha256": {
+        "base.bit": "8d5f9fe850b08fb728ce9238ded6c65bc59306873051d1405fe197bd74b86a71",
+        "base.hwh": "439ced3296f2f8ebbb710898fa4d0661a5bebbf8bc00a1e42dffdd033de63730"
+      },
+      "parser_before_download": "PASS",
+      "overlay": "PASS",
+      "ip": {
+        "leds_gpio": {
+          "type": "xilinx.com:ip:axi_gpio:2.0",
+          "phys_addr": 1092616192,
+          "addr_range": 65536
+        },
+        "switches_gpio": {
+          "type": "xilinx.com:ip:axi_gpio:2.0",
+          "phys_addr": 1092681728,
+          "addr_range": 65536
+        },
+        "buttons_gpio": {
+          "type": "xilinx.com:ip:axi_gpio:2.0",
+          "phys_addr": 1092747264,
+          "addr_range": 65536
+        },
+        "ps7": {
+          "type": "xilinx.com:ip:processing_system7:5.5",
+          "phys_addr": null,
+          "addr_range": null
+        }
+      },
+      "dt_ps_hz": 33333333,
+      "fclk0_mhz": 50.0,
+      "led_original": {
+        "value": 0,
+        "direction": 4294967295
+      },
+      "led_samples": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          15,
+          15
+        ]
+      ],
+      "led": "PASS",
+      "led_restored": true,
+      "inputs": {
+        "switches_gpio": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "buttons_gpio": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "allocation": {
+        "status": "PASS",
+        "words": 1024,
+        "dtype": "uint32",
+        "sync_to_from": true
+      },
+      "allocation_freed": true,
+      "status": "PASS"
+    }
+  ],
+  "jupyter_sessions": [
+    {
+      "api_status": 200,
+      "existing_kernel_count": 0,
+      "delete_status": 204
+    },
+    {
+      "api_status": 200,
+      "existing_kernel_count": 0,
+      "delete_status": 204
+    },
+    {
+      "api_status": 200,
+      "existing_kernel_count": 0,
+      "delete_status": 204
+    }
+  ],
+  "normal_linux_reboot": "PASS",
+  "clock_measurement": "PYNQ software calculation using DT 33333333 Hz; no external measurement",
+  "limits": [
+    "Input samples only; no human actuation or optical LED confirmation",
+    "Active SD installation tested; parent-prepared public image not booted here",
+    "No RFDC, FMC, HDMI, DMA or interrupt claims"
+  ],
+  "optional_failures": [
+    "haveged SIGSYS/core dump",
+    "DHCP servers have no suitable configured subnet; DHCP client works"
+  ],
+  "publication": "No publication performed",
+  "evidence_counts": {
+    "completed_full_passes": 2,
+    "normal_reboots": 1,
+    "successful_led_pattern_readbacks": 12,
+    "dip_samples": 10,
+    "button_samples": 10,
+    "allocation_passes_1024_words": 2,
+    "owned_jupyter_kernels_deleted": 3,
+    "initial_test_api_exception_retained": 1
+  }
+}
